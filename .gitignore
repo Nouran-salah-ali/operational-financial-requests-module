@@ -30,3 +30,9 @@ android/local.properties
 ios/Flutter/ephemeral/
 ios/Flutter/Generated.xcconfig
 ios/Flutter/flutter_export_environment.sh
+
+# Platform ephemeral & gradle wrapper
+**/flutter/ephemeral/
+android/gradlew
+android/gradlew.bat
+android/gradle/wrapper/gradle-wrapper.jar
