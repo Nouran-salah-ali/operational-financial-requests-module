@@ -2,6 +2,7 @@ import 'package:financial_requests_module/core/theme/app_colors.dart';
 import 'package:financial_requests_module/core/theme/app_spacing.dart';
 import 'package:financial_requests_module/core/theme/app_typography.dart';
 import 'package:material_ui/material_ui.dart';
+
 class AppTheme {
   const AppTheme._();
 
@@ -23,6 +24,12 @@ class AppTheme {
       scaffoldBackgroundColor: colors.background,
       textTheme: AppTypography.buildTextTheme(colors),
       extensions: <ThemeExtension<dynamic>>[colors],
+      appBarTheme: AppBarTheme(
+        backgroundColor: colors.background,
+        surfaceTintColor: colors.background,
+        foregroundColor: colors.textPrimary,
+        elevation: 0,
+      ),
       cardTheme: CardThemeData(
         color: colors.surface,
         elevation: 0,
@@ -73,6 +80,12 @@ class AppTheme {
       scaffoldBackgroundColor: colors.background,
       textTheme: AppTypography.buildTextTheme(colors),
       extensions: <ThemeExtension<dynamic>>[colors],
+      appBarTheme: AppBarTheme(
+        backgroundColor: colors.background,
+        surfaceTintColor: colors.background,
+        foregroundColor: colors.textPrimary,
+        elevation: 0,
+      ),
       cardTheme: CardThemeData(
         color: colors.surface,
         elevation: 0,

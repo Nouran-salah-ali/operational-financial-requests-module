@@ -113,49 +113,49 @@ abstract class AppLocalizations {
   /// No description provided for @searchHint.
   ///
   /// In en, this message translates to:
-  /// **'Search by title or reference ID...'**
+  /// **'ابحثي بالعنوان أو رقم المرجع...'**
   String get searchHint;
 
   /// No description provided for @filterAll.
   ///
   /// In en, this message translates to:
-  /// **'All'**
+  /// **'الكل'**
   String get filterAll;
 
   /// No description provided for @filterCompleted.
   ///
   /// In en, this message translates to:
-  /// **'Completed'**
+  /// **'مكتمل'**
   String get filterCompleted;
 
   /// No description provided for @filterPending.
   ///
   /// In en, this message translates to:
-  /// **'Pending'**
+  /// **'قيد الانتظار'**
   String get filterPending;
 
   /// No description provided for @filterRejected.
   ///
   /// In en, this message translates to:
-  /// **'Rejected'**
+  /// **'مرفوض'**
   String get filterRejected;
 
   /// No description provided for @priorityHigh.
   ///
   /// In en, this message translates to:
-  /// **'High'**
+  /// **'عالية'**
   String get priorityHigh;
 
   /// No description provided for @priorityMedium.
   ///
   /// In en, this message translates to:
-  /// **'Medium'**
+  /// **'متوسطة'**
   String get priorityMedium;
 
   /// No description provided for @priorityLow.
   ///
   /// In en, this message translates to:
-  /// **'Low'**
+  /// **'منخفضة'**
   String get priorityLow;
 
   /// No description provided for @newRequest.
@@ -167,37 +167,37 @@ abstract class AppLocalizations {
   /// No description provided for @retry.
   ///
   /// In en, this message translates to:
-  /// **'Retry'**
+  /// **'إعادة المحاولة'**
   String get retry;
 
   /// No description provided for @emptyTitle.
   ///
   /// In en, this message translates to:
-  /// **'No matching requests'**
+  /// **'لا توجد طلبات'**
   String get emptyTitle;
 
   /// No description provided for @emptySubtitle.
   ///
   /// In en, this message translates to:
-  /// **'Try adjusting your search query or status filter.'**
+  /// **'لا توجد طلبات تشغيلية أو مالية مطابقة في الوقت الحالي.'**
   String get emptySubtitle;
 
   /// No description provided for @errorTitle.
   ///
   /// In en, this message translates to:
-  /// **'Unable to load requests'**
+  /// **'حدث خطأ غير متوقع'**
   String get errorTitle;
 
   /// No description provided for @referenceLabel.
   ///
   /// In en, this message translates to:
-  /// **'Ref'**
+  /// **'رقم المرجع'**
   String get referenceLabel;
 
   /// No description provided for @amountLabel.
   ///
   /// In en, this message translates to:
-  /// **'Amount'**
+  /// **'المبلغ'**
   String get amountLabel;
 
   /// No description provided for @dateLabel.
@@ -215,7 +215,7 @@ abstract class AppLocalizations {
   /// No description provided for @notesLabel.
   ///
   /// In en, this message translates to:
-  /// **'Notes'**
+  /// **'الملاحظات'**
   String get notesLabel;
 
   /// No description provided for @noNotes.
@@ -233,7 +233,7 @@ abstract class AppLocalizations {
   /// No description provided for @createRequestTitle.
   ///
   /// In en, this message translates to:
-  /// **'Create New Request'**
+  /// **'إنشاء طلب جديد'**
   String get createRequestTitle;
 
   /// No description provided for @titleFieldLabel.
@@ -263,13 +263,13 @@ abstract class AppLocalizations {
   /// No description provided for @titleRequiredError.
   ///
   /// In en, this message translates to:
-  /// **'Request title is required'**
+  /// **'عنوان الطلب مطلوب.'**
   String get titleRequiredError;
 
   /// No description provided for @amountInvalidError.
   ///
   /// In en, this message translates to:
-  /// **'Enter a valid amount greater than 0'**
+  /// **'أدخلي مبلغاً صحيحاً أكبر من الصفر.'**
   String get amountInvalidError;
 
   /// No description provided for @step3ReadyMessage.
@@ -277,6 +277,78 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Step 3 Ready — Theme & RTL/LTR Localization'**
   String get step3ReadyMessage;
+
+  /// No description provided for @newRequestButton.
+  ///
+  /// In en, this message translates to:
+  /// **'طلب جديد'**
+  String get newRequestButton;
+
+  /// No description provided for @detailsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'تفاصيل الطلب'**
+  String get detailsTitle;
+
+  /// No description provided for @priorityLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'الأولوية'**
+  String get priorityLabel;
+
+  /// No description provided for @createdAtLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'تاريخ الإنشاء'**
+  String get createdAtLabel;
+
+  /// No description provided for @noNotesPlaceholder.
+  ///
+  /// In en, this message translates to:
+  /// **'لا توجد ملاحظات إضافية.'**
+  String get noNotesPlaceholder;
+
+  /// No description provided for @updateStatusLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'تحديث الحالة'**
+  String get updateStatusLabel;
+
+  /// No description provided for @statusUpdatedSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'تم تحديث حالة الطلب بنجاح.'**
+  String get statusUpdatedSuccess;
+
+  /// No description provided for @requestTitleLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'عنوان الطلب'**
+  String get requestTitleLabel;
+
+  /// No description provided for @requestTitleHint.
+  ///
+  /// In en, this message translates to:
+  /// **'أدخلي عنواناً واضحاً للطلب'**
+  String get requestTitleHint;
+
+  /// No description provided for @currencyLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'العملة'**
+  String get currencyLabel;
+
+  /// No description provided for @notesHint.
+  ///
+  /// In en, this message translates to:
+  /// **'أضيفي تفاصيل أو مبررات إضافية (اختياري)'**
+  String get notesHint;
+
+  /// No description provided for @submitRequestButton.
+  ///
+  /// In en, this message translates to:
+  /// **'إرسال الطلب'**
+  String get submitRequestButton;
 }
 
 class _AppLocalizationsDelegate

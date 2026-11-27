@@ -38,15 +38,15 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
   final Color error;
 
   factory AppColorsExtension.light() => const AppColorsExtension(
-    background: Color(0xFFF8FAFC),
+    background: Color(0xFFFFFFFF), // Pure white background
     surface: Color(0xFFFFFFFF),
-    primaryBrand: Color(0xFF0F4C81),
-    secondaryBrand: Color(0xFF1E6F5C),
-    textPrimary: Color(0xFF0F172A),
-    textSecondary: Color(0xFF475569),
-    border: Color(0xFFE2E8F0),
-    containerBackground: Color(0xFFF1F5F9),
-    completedBg: Color(0xFFDCFCE7),
+    primaryBrand: Color(0xFF111827), // Deep Blue
+    secondaryBrand: Color(0xFF22C55E), // Vibrant Green
+    textPrimary: Color(0xFF111827), // Deep Blue
+    textSecondary: Color(0xFF1F2937), // Dark Blue
+    border: Color(0xFFE5E7EB),
+    containerBackground: Color(0xFFF9FAFB), // Pale Blue from palette
+    completedBg: Color(0xFFA7F3D0), // Soft Green from palette
     completedFg: Color(0xFF15803D),
     pendingBg: Color(0xFFFEF3C7),
     pendingFg: Color(0xFFB45309),
@@ -56,16 +56,16 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
   );
 
   factory AppColorsExtension.dark() => const AppColorsExtension(
-    background: Color(0xFF0B1120),
-    surface: Color(0xFF111827),
-    primaryBrand: Color(0xFF60A5FA),
-    secondaryBrand: Color(0xFF34D399),
-    textPrimary: Color(0xFFF8FAFC),
-    textSecondary: Color(0xFF94A3B8),
-    border: Color(0xFF1E293B),
-    containerBackground: Color(0xFF1E293B),
+    background: Color(0xFF111827), // Deep Blue
+    surface: Color(0xFF1F2937), // Dark Blue
+    primaryBrand: Color(0xFF22C55E), // Vibrant Green
+    secondaryBrand: Color(0xFFA7F3D0), // Soft Green
+    textPrimary: Color(0xFFF9FAFB), // Pale Blue
+    textSecondary: Color(0xFFA7F3D0), // Soft Green
+    border: Color(0xFF374151),
+    containerBackground: Color(0xFF1F2937), // Dark Blue
     completedBg: Color(0xFF14532D),
-    completedFg: Color(0xFF86EFAC),
+    completedFg: Color(0xFFA7F3D0), // Soft Green
     pendingBg: Color(0xFF78350F),
     pendingFg: Color(0xFFFCD34D),
     rejectedBg: Color(0xFF7F1D1D),

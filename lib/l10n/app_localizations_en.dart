@@ -16,50 +16,50 @@ class AppLocalizationsEn extends AppLocalizations {
   String get languageToggleLabel => 'عربي';
 
   @override
-  String get searchHint => 'Search by title or reference ID...';
+  String get searchHint => 'ابحثي بالعنوان أو رقم المرجع...';
 
   @override
-  String get filterAll => 'All';
+  String get filterAll => 'الكل';
 
   @override
-  String get filterCompleted => 'Completed';
+  String get filterCompleted => 'مكتمل';
 
   @override
-  String get filterPending => 'Pending';
+  String get filterPending => 'قيد الانتظار';
 
   @override
-  String get filterRejected => 'Rejected';
+  String get filterRejected => 'مرفوض';
 
   @override
-  String get priorityHigh => 'High';
+  String get priorityHigh => 'عالية';
 
   @override
-  String get priorityMedium => 'Medium';
+  String get priorityMedium => 'متوسطة';
 
   @override
-  String get priorityLow => 'Low';
+  String get priorityLow => 'منخفضة';
 
   @override
   String get newRequest => 'New Request';
 
   @override
-  String get retry => 'Retry';
+  String get retry => 'إعادة المحاولة';
 
   @override
-  String get emptyTitle => 'No matching requests';
+  String get emptyTitle => 'لا توجد طلبات';
 
   @override
   String get emptySubtitle =>
-      'Try adjusting your search query or status filter.';
+      'لا توجد طلبات تشغيلية أو مالية مطابقة في الوقت الحالي.';
 
   @override
-  String get errorTitle => 'Unable to load requests';
+  String get errorTitle => 'حدث خطأ غير متوقع';
 
   @override
-  String get referenceLabel => 'Ref';
+  String get referenceLabel => 'رقم المرجع';
 
   @override
-  String get amountLabel => 'Amount';
+  String get amountLabel => 'المبلغ';
 
   @override
   String get dateLabel => 'Date';
@@ -68,7 +68,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get priorityLabelText => 'Priority';
 
   @override
-  String get notesLabel => 'Notes';
+  String get notesLabel => 'الملاحظات';
 
   @override
   String get noNotes => 'No additional notes';
@@ -77,7 +77,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get updateStatus => 'Update Status';
 
   @override
-  String get createRequestTitle => 'Create New Request';
+  String get createRequestTitle => 'إنشاء طلب جديد';
 
   @override
   String get titleFieldLabel => 'Request Title';
@@ -92,11 +92,47 @@ class AppLocalizationsEn extends AppLocalizations {
   String get submit => 'Submit Request';
 
   @override
-  String get titleRequiredError => 'Request title is required';
+  String get titleRequiredError => 'عنوان الطلب مطلوب.';
 
   @override
-  String get amountInvalidError => 'Enter a valid amount greater than 0';
+  String get amountInvalidError => 'أدخلي مبلغاً صحيحاً أكبر من الصفر.';
 
   @override
   String get step3ReadyMessage => 'Step 3 Ready — Theme & RTL/LTR Localization';
+
+  @override
+  String get newRequestButton => 'طلب جديد';
+
+  @override
+  String get detailsTitle => 'تفاصيل الطلب';
+
+  @override
+  String get priorityLabel => 'الأولوية';
+
+  @override
+  String get createdAtLabel => 'تاريخ الإنشاء';
+
+  @override
+  String get noNotesPlaceholder => 'لا توجد ملاحظات إضافية.';
+
+  @override
+  String get updateStatusLabel => 'تحديث الحالة';
+
+  @override
+  String get statusUpdatedSuccess => 'تم تحديث حالة الطلب بنجاح.';
+
+  @override
+  String get requestTitleLabel => 'عنوان الطلب';
+
+  @override
+  String get requestTitleHint => 'أدخلي عنواناً واضحاً للطلب';
+
+  @override
+  String get currencyLabel => 'العملة';
+
+  @override
+  String get notesHint => 'أضيفي تفاصيل أو مبررات إضافية (اختياري)';
+
+  @override
+  String get submitRequestButton => 'إرسال الطلب';
 }
